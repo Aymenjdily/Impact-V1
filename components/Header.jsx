@@ -38,23 +38,12 @@ const Header = () => {
 
             <div className='bg-header flex-1 h-full w-full flex items-center justify-center p-5'>
                 <div className='over'/>
-                <motion.h1 
-                    initial={{
-                        opacity:0,
-                        x:300
-                    }}
-                    whileInView={{
-                        opacity:1,
-                        x:0
-                    }}
-                    transition={{
-                        duration:1.5
-                    }}
+                <h1 
                     className='capitalize text-white font-bold relative md:text-8xl sm:text-6xl text-4xl text-center'>
                     work hard
                     <br/>
                     dream big
-                </motion.h1>
+                </h1>
             </div>
         </section>
     </header>
